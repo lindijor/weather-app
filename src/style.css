@@ -1,5 +1,6 @@
 body {
   background-color: #f9f7fe;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -33,4 +34,52 @@ body {
   background: white;
   color: #9fdef7;
   border: 1px #9fdef7 solid;
+}
+
+header {
+  border-bottom: 1px #f9f7fe solid;
+  padding: 0 0 20px 0;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+}
+
+.weather-temperature-container {
+  display: flex;
+}
+
+.weather-city {
+  margin-top: 0;
+  font-size: 50px;
+}
+
+.weather-details {
+  line-height: 20px;
+}
+
+.weather-details strong {
+  color: #0074ba;
+}
+
+.weather-icon {
+  font-size: 50px;
+}
+
+.weather-degrees {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weather-degrees-metric {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+footer {
+  border-top: 1px #f9f7fe solid;
+  padding: 20px 0 0 0;
 }
