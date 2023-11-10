@@ -3,28 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>World weather application</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Type a city..." />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1 class="weather-city">city placeholder</h1>
-      <p>
-        Friday 12:41, overcast clouds <br />
-        Humidity: 76%, Wind: 8.23km/h
-      </p>
-      <div class="weather-icon">☀️</div>
-      <div class="weather-degrees">12</div>
-      <div class="weather-degrees-metric">°C</div>
-    </main>
-    <footer>
-      This weather application was coded by Lindis Jørgensen and is open source
-      on Github and hosted on Netlify 💙
-    </footer>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Type a city..."
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <h1 class="weather-city">Oslo</h1>
+        <p>
+          Friday 12:41, overcast clouds <br />
+          Humidity: 76%, Wind: 8.23km/h
+        </p>
+        <div class="weather-icon">☀️</div>
+        <div class="weather-degrees">12</div>
+        <div class="weather-degrees-metric">°C</div>
+      </main>
+      <footer>
+        This weather application was coded by Lindis Jørgensen and is open
+        source on Github and hosted on Netlify 💙
+      </footer>
+    </div>
   </body>
 </html>
