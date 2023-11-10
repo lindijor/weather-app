@@ -7,3 +7,5 @@ function displayCity(event) {
 
 let searchFormElement = document.querySelector("#city-search");
 searchFormElement.addEventListener("submit", displayCity);
+
+axios.get(apiUrl).then(showWeatherData);
