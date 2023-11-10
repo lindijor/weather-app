@@ -5,7 +5,7 @@ body {
 
 .container {
   background: white;
-  width: 800px;
+  width: 700px;
   margin: 40px auto;
   padding: 20px;
   border-radius: 15px;
@@ -13,7 +13,7 @@ body {
 }
 
 .search-input {
-  width: 600px;
+  width: 610px;
   border: none;
   background: #f9f7fe;
   padding: 15px 10px;
@@ -23,17 +23,18 @@ body {
 
 .search-button {
   border: 1px white solid;
-  background: #9fdef7;
+  background: #7ab7db;
   color: white;
   padding: 15px 10px;
   border-radius: 6px;
   font-size: 15px;
+  margin: 0 0 0 10px;
 }
 
 .search-button:hover {
   background: white;
-  color: #9fdef7;
-  border: 1px #9fdef7 solid;
+  color: #7ab7db;
+  border: 1px #7ab7db solid;
 }
 
 header {
@@ -61,7 +62,7 @@ header {
 }
 
 .weather-details strong {
-  color: #0074ba;
+  color: #7ab7db;
 }
 
 .weather-icon {
@@ -79,7 +80,14 @@ header {
   margin: 8px;
 }
 
+a {
+  color: #7ab7db;
+}
+
 footer {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
   border-top: 1px #f9f7fe solid;
   padding: 20px 0 0 0;
 }
