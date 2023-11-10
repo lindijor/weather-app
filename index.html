@@ -9,11 +9,12 @@
   <body>
     <div class="container">
       <header>
-        <form>
+        <form id="city-search">
           <input
             type="search"
             placeholder="Type a city..."
             class="search-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -21,7 +22,7 @@
       <main>
         <div class="weather-data">
             <div>
-          <h1 class="weather-city">Oslo</h1>
+          <h1 class="weather-city" id="weather-city">Oslo</h1>
           <p class="weather-details">
             Friday 12:41, overcast clouds <br />
             Humidity: <strong>76%</strong>, Wind: <strong>8.23km/h</strong>
@@ -40,5 +41,6 @@
         source on Github</a> and <a href="https://cheery-flan-80db10.netlify.app/">hosted on Netlify</a> 💙
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
