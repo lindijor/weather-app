@@ -66,18 +66,21 @@ header {
 }
 
 .weather-icon {
-  font-size: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-degrees {
   font-size: 70px;
   font-weight: bold;
+  line-height: 100px;
 }
 
 .weather-degrees-metric {
   font-size: 25px;
   font-weight: bold;
   margin: 8px;
+  line-height: 50px;
 }
 
 a {
