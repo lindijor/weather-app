@@ -35,6 +35,7 @@ body {
   background: white;
   color: #7ab7db;
   border: 1px #7ab7db solid;
+  cursor: pointer;
 }
 
 header {
