@@ -13,8 +13,8 @@ function updateWeatherData(response) {
 
   city.innerHTML = response.data.city;
   weatherDescription.innerHTML = response.data.condition.description;
-  weatherHumidity.innerHTML = response.data.temperature.humidity;
-  weatherWind.innerHTML = response.data.wind.speed;
+  weatherHumidity.innerHTML = `${response.data.temperature.humidity}%`;
+  weatherWind.innerHTML = `${response.data.wind.speed} km/h`;
   currentTime.innerHTML = getTheDate(date);
   cityTemperature.innerHTML = Math.round(temperature);
 
